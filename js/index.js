@@ -29,20 +29,14 @@ createMainContent=()=>{
 						  <p id="sky">Cloudy</p>
 						  <p id="snow">snow</p>
 						  <p id="Time-zone"></p>
-						</div>
-					  </div>
-					</div>					
-				  </div>
+						</div></div></div></div>
 				  <!--weather card ends-->
-				</div>
-				</div>
-				</div>
-				</div>
-    
+				</div></div></div></div>    
     `    
-    print('working')
+    // print('working')
+    print(createMainContent)
 }
-
+createMainContent()
 
 
 
