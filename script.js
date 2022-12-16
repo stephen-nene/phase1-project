@@ -13,18 +13,20 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
     
     if (username === "user" && password === "web_dev") {
-        alert("You have successfully logged in.");
-        location.reload();print(location)
-        submitBtn.addEventListener('click',()=>{
-            createMainContent()   
+        // alert("You have successfully logged in.");
+        loginButton.addEventListener('click',()=>{
+            createMainContent()  
+            fetchData() 
         })
     } else {
         loginErrorMsg.style.opacity = 1;
     }
 })})
 
-//search button 
-const searchBtn = document.querySelector('#sach')
+
+function fetchData(){
+    //search button 
+// const searchBtn = document.querySelector('#sach')
 const city_name = document.querySelector('#entacity');
 
 	const search = document.getElementById('entacity')
@@ -82,3 +84,6 @@ windSpeed.textContent = "Wind speed: " + data.wind_spd +" m/s"
 
 document.querySelector('div.mr-auto').appendChild(windSpeed)
 })})
+
+
+}

@@ -1,8 +1,5 @@
-const submitBtn = document.querySelector('#login-form-submit')
-print(submitBtn)
-submitBtn.addEventListener('click', (event) => {
-event.preventDefault();
-})
+document.querySelector('#login-form-submit').addEventListener('click', (event) => {
+event.preventDefault();})
 createMainContent=()=>{
     document.body.innerHTML = `<form class="example" >
 		<input id="entacity" type="text" placeholder="Enter city's name...." >
@@ -34,9 +31,9 @@ createMainContent=()=>{
 				</div></div></div></div>    
     `    
     // print('working')
-    print(createMainContent)
+    // print(createMainContent)
 }
-createMainContent()
+// createMainContent()
 
 
 
