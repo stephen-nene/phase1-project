@@ -1,5 +1,24 @@
-# phase1-project
+# Weather Web app
+
+## Description
+This website will allow a user to enter the given dummy username and password which will inturn take the user to the weather web app and there he/she will input a city's name and the website will fetch data from a public api to show the weathers details in that place
 ## Landing page
-![landing page](https://)
+![landing page](https://github.com/stephen-nene/phase1-project/blob/main/images/landing-page.png?raw=true)
 
+## Weather display
+![weather web-app](https://github.com/stephen-nene/phase1-project/blob/main/images/webapp.png?raw=true)
 
+## Technology Used
+- HTML
+- JavaScript
+- CSS
+- Fetch
+
+## license
+licenced under the [ISC-licenced]
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Generic License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+copyright (c) stephen-nene
+
+## author
+Stephen Nene
+[github](https://github.com/stephen-nene)
