@@ -14,6 +14,10 @@ This website will allow a user to enter the given dummy username and password wh
 - CSS
 - Fetch
 
+## MVP 
+Login page to prompt user to the weather app
+The weather webapp has a search bar where user can input a city's name
+
 ## license
 licenced under the [ISC-licenced]
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Generic License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)

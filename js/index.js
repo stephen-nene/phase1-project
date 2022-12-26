@@ -1,7 +1,8 @@
 document.querySelector('#login-form-submit').addEventListener('click', (event) => {
 event.preventDefault();})
 createMainContent=()=>{
-    document.body.innerHTML = `<form class="example" >
+    document.body.innerHTML = `
+	<form class="example" >
 		<input id="entacity" type="text" placeholder="Enter city's name...." >
 		<!-- <button id="sach" type="submit"><i class="fa fa-search"></i></button> -->
 	  </form>
