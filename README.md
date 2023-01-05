@@ -1,5 +1,7 @@
 # Weather Web app
 
+[live link] (https://stephen-nene.github.io/phase1-project/)
+
 ## Description
 This website will allow a user to enter the given dummy username and password which will inturn take the user to the weather web app and there he/she will input a city's name and the website will fetch data from a public api to show the weathers details in that place
 ## Landing page
